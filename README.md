@@ -50,8 +50,8 @@ curl https://raw.github.com/TamsuiCM11/local_manifests/cm-11.0/patches.sh > ~/an
 ```
   iv) If you want to build for Xperia Tipo (tapioca)
 ```
-  breakfast cm_tapioca_ss-userdebug
-  brunch cm_tapioca_ss-userdebug
+  breakfast cm_tapioca-userdebug
+  brunch cm_tapioca-userdebug
 ```
   
 Now go and grab a coffee or find something construtive to do for a couple to a few hours depending on your computer! 
