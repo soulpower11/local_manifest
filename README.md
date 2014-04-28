@@ -35,23 +35,33 @@ curl https://raw.github.com/TamsuiCM11/local_manifests/cm-11.0/patches.sh > ~/an
 ```
   i) If you want to build for Xperia E (nanhu)
 ```
+  breakfast cm_nanhu-userdebug
+  brunch cm_nanhu-userdebug
+```
+  ii) If you want to build for Xperia E Dual (nanhu_ds)
+```
   breakfast cm_nanhu_ds-userdebug
   brunch cm_nanhu_ds-userdebug
 ```
-  ii) If you want to build for Xperia J (jlo)
+  iii) If you want to build for Xperia J (jlo)
 ```
   breakfast cm_jlo-userdebug
   brunch cm_jlo-userdebug
 ```
-  iii) If you want to build for Xperia Miro (mesona)
+  iv) If you want to build for Xperia Miro (mesona)
 ```
   breakfast cm_mesona-userdebug
   brunch cm_mesona-userdebug
 ```
-  iv) If you want to build for Xperia Tipo (tapioca)
+  v) If you want to build for Xperia Tipo (tapioca)
 ```
   breakfast cm_tapioca-userdebug
   brunch cm_tapioca-userdebug
+```
+  v) If you want to build for Xperia Tipo Dual (tapioca_ds)
+```
+  breakfast cm_tapioca_ds-userdebug
+  brunch cm_tapioca_ds-userdebug
 ```
   
 Now go and grab a coffee or find something construtive to do for a couple to a few hours depending on your computer! 
