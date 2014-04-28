@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-	<!-- Dependancies -->
+	<!-- Common Repository -->
 	<project path="device/sony/tamsui-common" name="TamsuiCM11/android_device_sony_tamsui-common" remote="github" revision="cm-11.0" />
+        
+        <!-- Kernels -->
         <project path="kernel/sony/msm7x27a" name="TamsuiCM11/android_kernel_sony_msm7x27a" remote="github" revision="jellybean-3.4" />
-        <project path="device/sony/qcom-common" name="CyanogenMod/android_device_sony_qcom-common" remote="github" revision="cm-11.0" />
-        <project path="device/sony/common" name="CyanogenMod/android_device_sony_common" remote="github" revision="cm-11.0" />
         <project path="kernel/sony/nanhu_ds" name="TamsuiCM11/android_kernel_sony_msm7x27a-nanhu" remote="github" revision="cm-11.0" />
         <project path="kernel/sony/mesona" name="TamsuiCM11/android_kernel_sony_msm7x27a-Mesona" remote="github" revision="master" />
         
@@ -14,24 +14,15 @@
 	<project path="device/sony/jlo" name="TamsuiCM11/android_device_sony_jlo" remote="github" revision="cm-11.0" />
 	<project path="device/sony/mesona" name="TamsuiCM11/android_device_sony_mesona" remote="github" revision="cm-11.0" />
 	<project path="device/sony/nanhu_ds" name="TamsuiCM11/android_device_sony_nanhu_ds" remote="github" revision="cm-11.0" />
-	<project path="hardware/atheros/wlan" name="CyanogenMod/android_hardware_atheros_wlan" remote="github" revision="jellybean" />
-
-        <!-- Proprietary files -->
+	
+	<!-- Proprietary blobs -->
 	<project path="vendor/sony" name="TamsuiCM11/proprietary_vendor_sony" remote="github" revision="cm-11.0" />
 	
-	<!-- Projects with some needed Legacy Additions for Tamsui Devices -->
-	<remove-project name="CyanogenMod/android_packages_apps_Browser" />
-	<remove-project name="CyanogenMod/android_packages_apps_SoundRecorder" />
-	<project path="packages/apps/Browser" name="LegacyXperia/android_packages_apps_Browser" remote="github" revision="cm-11.0" />
-	<project path="packages/apps/SoundRecorder" name="TeamHackLG/android_packages_apps_SoundRecorder" remote="github" revision="cm-11.0" />
-
-	<!-- Drivers -->
+	<!-- HALS -->
 	<project path="hardware/qcom/display-legacy" name="TamsuiCM11/android_hardware_qcom_display-legacy" remote="github" revision="cm-11-jlo" />
         <project path="hardware/qcom/audio-legacy" name="TamsuiCM11/android_hardware_qcom_audio-legacy" remote="github" revision="cm-11.0" />
-        <project path="hardware/qcom/media-legacy" name="TamsuiCM11/android_hardware_qcom_media-legacy" remote="github" revision="cm-11.0" />
-        
-        <!-- CyanogenMod projects -->
-        <project path="hardware/sony/DASH" name="CyanogenMod/android_hardware_sony_DASH"  />
+	<project path="hardware/qcom/media-legacy" name="TamsuiCM11/android_hardware_qcom_media-legacy" remote="github" revision="cm-11.0" />
+	<project path="hardware/atheros/wlan" name="CyanogenMod/android_hardware_atheros_wlan" remote="github" revision="jellybean" />
         
 </manifest>
 
