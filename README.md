@@ -58,7 +58,7 @@ curl https://raw.github.com/TamsuiCM11/local_manifests/cm-11.0/patches.sh > ~/an
   breakfast cm_tapioca-userdebug
   brunch cm_tapioca-userdebug
 ```
-  v) If you want to build for Xperia Tipo Dual (tapioca_ds)
+  vi) If you want to build for Xperia Tipo Dual (tapioca_ds)
 ```
   breakfast cm_tapioca_ds-userdebug
   brunch cm_tapioca_ds-userdebug
