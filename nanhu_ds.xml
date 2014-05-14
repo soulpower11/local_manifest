@@ -1,16 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
+  
+  <!--Set remote "mk" as qcom_common, kernel_backports, and other stuff needs it-->
+  <remote  name="mk" fetch="https://github.com/der-koenig" />
 
-  #Kernel 3.4#
+  <!--Kernel 3.4-->
   <project path="kernel/sony/nanhu_ds" name="hsr0/android_kernel_sony_msm7x27a" remote="github" revision="cm-11.0" />
   <project path="kernel/sony/external/compat-wireless" name="android_external_compat-wireless" remote="mk" revision="sony" />
   <project path="kernel/backports" name="android_kernel_backports" remote="mk" revision="nanhu/cm-11.0" />
   
-  #Device Specific Repos#
+  <!--Device Specific Repos-->
   <project path="device/qcom/common" name="android_device_qcom_common" remote="mk" revision="codeaurora-cm" />
   <project path="device/sony/tamsui-common" name="hsr0/android_device_sony_tamsui-common" remote="github" revision="cm-11.0" />
   <project path="device/sony/nanhu" name="TamsuiCM11/android_device_sony_nanhu_ds" remote="github" revision="nanhu" />
   <project path="device/sony/nanhu_ds" name="hsr0/android_device_sony_nanhu_ds" remote="github" revision="cm-11.0" />
   
-  #Proprietary Files#
+  <!--Proprietary Files-->
   <project path="vendor/sony/nanhu" name="TamsuiCM11/proprietary_vendor_sony" remote="github" revision="cm-11.0" />
+</manifest>
