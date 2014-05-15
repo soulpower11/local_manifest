@@ -15,6 +15,12 @@
   <project path="device/sony/nanhu" name="TamsuiCM11/android_device_sony_nanhu_ds" remote="github" revision="nanhu" />
   <project path="device/sony/nanhu_ds" name="hsr0/android_device_sony_nanhu_ds" remote="github" revision="cm-11.0" />
   
+  <!--Drivers-->
+  <project path="hardware/qcom/display-legacy" name="TamsuiCM11/android_hardware_qcom_display-legacy" remote="github" revision="cm-11-nanhu" />
+  <project path="hardware/qcom/audio-legacy" name="TamsuiCM11/android_hardware_qcom_audio-legacy" remote="github" revision="cm-11.0" />
+  <project path="hardware/qcom/media-legacy" name="TamsuiCM11/android_hardware_qcom_media-legacy" remote="github" revision="cm-11.0" />
+  <project path="hardware/atheros/wlan" name="CyanogenMod/android_hardware_atheros_wlan" revision="jellybean" />
+  
   <!--Proprietary Files-->
   <project path="vendor/sony/nanhu" name="TamsuiCM11/proprietary_vendor_sony" remote="github" revision="cm-11.0" />
 </manifest>
