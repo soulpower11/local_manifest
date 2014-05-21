@@ -14,7 +14,7 @@ cd ~/android/system
 2) Get the local manifest
 ```
 mkdir -p ~/android/system/.repo/local_manifests
-curl https://raw.github.com/TamsuiCM11/local_manifests/cm-11.0/tamsui.xml > ~/android/system/.repo/local_manifests/tamsui.xml
+curl https://raw.github.com/TamsuiCM11/local_manifest/master/tamsui.xml > ~/android/system/.repo/local_manifests/tamsui.xml
 ```
 
 3) repo sync (again) to download the additional repositories
@@ -24,7 +24,7 @@ repo sync -j8 --no-clone-bundle
 
 4) Download and apply the patches file containing patches not in the source
 ```
-curl https://raw.github.com/TamsuiCM11/local_manifests/cm-11.0/patches.sh > ~/android/system/patches.sh
+curl https://raw.github.com/TamsuiCM11/local_manifest/master/patches.sh > ~/android/system/patches.sh
 ./patches.sh
 ```
 
