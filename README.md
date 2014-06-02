@@ -2,9 +2,7 @@ This is the local manifest and instructions for building CyanogenMod 11 (or AOSP
 
 The devices are based on the MSM7627a SoC (codenamed Tamsui)
 
-Please setup your build enviroment as instructed on the link below, only follow up to the "Get Prebuilt Apps" stage, after which you can follow instructions mentioned here.
-
-http://wiki.cyanogenmod.org/w/Build_for_yuga
+Check CarbonDev github for initial instructions;
 
 1) After getting the prebuilt apps move back to root cyanogenmod dir
 ```
@@ -35,33 +33,13 @@ curl https://raw.github.com/TamsuiCM11/local_manifest/master/patches.sh > ~/andr
 ```
   i) If you want to build for Xperia E (nanhu)
 ```
-  breakfast cm_nanhu-userdebug
-  brunch cm_nanhu-userdebug
+  breakfast carbon_nanhu-userdebug
+  brunch carbon_nanhu-userdebug
 ```
   ii) If you want to build for Xperia E Dual (nanhu_ds)
 ```
-  breakfast cm_nanhu_ds-userdebug
-  brunch cm_nanhu_ds-userdebug
-```
-  iii) If you want to build for Xperia J (jlo)
-```
-  breakfast cm_jlo-userdebug
-  brunch cm_jlo-userdebug
-```
-  iv) If you want to build for Xperia Miro (mesona)
-```
-  breakfast cm_mesona-userdebug
-  brunch cm_mesona-userdebug
-```
-  v) If you want to build for Xperia Tipo (tapioca)
-```
-  breakfast cm_tapioca-userdebug
-  brunch cm_tapioca-userdebug
-```
-  vi) If you want to build for Xperia Tipo Dual (tapioca_ds)
-```
-  breakfast cm_tapioca_ds-userdebug
-  brunch cm_tapioca_ds-userdebug
+  breakfast carbon_nanhu_ds-userdebug
+  brunch carbon_nanhu_ds-userdebug
 ```
   
 Now go and grab a coffee or find something construtive to do for a couple to a few hours depending on your computer! 
@@ -76,12 +54,3 @@ note: you will also have to apply patches again after running ```repo sync``` by
 The patches.sh file isn't updated automatically after running ```repo sync``` so you'll have to update it yourself by running step 4 again. 
 
 -- joebonrichie
-
-The site of TamsuiCM11 project https://sites.google.com/site/tamsuicm11/home
-
-Before beta release we will ask xda moderators to delete all [Dev preview]-like threads of CM11
-so we can make one thread for all devices. Just like FXP did.
-
-I may take care of this to make it look nicely. Feel free to pm me on xda with suggestions etc about the site.
-
--- Lozohcum
