@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
         <!-- Carbon replacements, repos from LegacyMod -->
-    	<remove-project name="CarbonDev/android_build" />
     	<remove-project name="CarbonDev/android_frameworks_av" />
-    	<project path="build" name="legaCyMod/android_build" revision="cm-11.0" >
-        	<copyfile src="core/root.mk" dest="Makefile" />
-    	</project>
     	<project path="frameworks/av" name="legaCyMod/android_frameworks_av" remote="github" revision="cm-11.0" />
 
 	<!-- Common Repository -->
@@ -26,4 +22,3 @@
 	<project path="hardware/atheros/wlan" name="CyanogenMod/android_hardware_atheros_wlan" remote="github" revision="jellybean" />
         
 </manifest>
-
