@@ -1,24 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-        <!-- Carbon replacements, repos from LegacyMod -->
-    	<remove-project name="CarbonDev/android_frameworks_av" />
-    	<project path="frameworks/av" name="legaCyMod/android_frameworks_av" remote="github" revision="cm-11.0" />
 
 	<!-- Common Repository -->
-	<project path="device/sony/tamsui-common" name="TamsuiCM11/android_device_sony_tamsui-common" remote="github" revision="cm-11.0" />
+	<project path="device/sony/tamsui-common" name="TamsuiCM11/android_device_sony_tamsui-common" remote="gh" revision="cm-11.0" />
         
         <!-- Kernels -->
         
         <!-- Devices -->
-	<project path="device/sony/mesona" name="TamsuiCM11/android_device_sony_mesona" remote="github" revision="Carbon" />
+	<project path="device/sony/mesona" name="TamsuiCM11/android_device_sony_mesona" remote="gh" revision="Carbon" />
 	
 	<!-- Proprietary blobs -->
-	<project path="vendor/sony" name="TamsuiCM11/proprietary_vendor_sony" remote="github" revision="cm-11.0" />
+	<project path="vendor/sony" name="TamsuiCM11/proprietary_vendor_sony" remote="gh" revision="cm-11.0" />
 	
 	<!-- HALS -->
-	<project path="hardware/qcom/display-legacy" name="TamsuiCM11/android_hardware_qcom_display-legacy" remote="github" revision="cm-11.0-experimental" />
-        <project path="hardware/qcom/audio-legacy" name="TamsuiCM11/android_hardware_qcom_audio-legacy" remote="github" revision="cm-11.0" />
-	<project path="hardware/qcom/media-legacy" name="TamsuiCM11/android_hardware_qcom_media-legacy" remote="github" revision="cm-11.0" />
-	<project path="hardware/atheros/wlan" name="CyanogenMod/android_hardware_atheros_wlan" remote="github" revision="jellybean" />
+	<project path="hardware/qcom/display-legacy" name="TamsuiCM11/android_hardware_qcom_display-legacy" remote="gh" revision="cm-11.0-experimental" />
+        <project path="hardware/qcom/audio-legacy" name="TamsuiCM11/android_hardware_qcom_audio-legacy" remote="gh" revision="cm-11.0" />
+	<project path="hardware/qcom/media-legacy" name="TamsuiCM11/android_hardware_qcom_media-legacy" remote="gh" revision="cm-11.0" />
+	<project path="hardware/atheros/wlan" name="CyanogenMod/android_hardware_atheros_wlan" remote="gh" revision="jellybean" />
         
 </manifest>
