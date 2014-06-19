@@ -24,7 +24,7 @@ repo sync -j8 --no-clone-bundle
 
 4) Download and apply the patches file containing patches not in the source
 ```
-curl https://raw.github.com/TamsuiCM11/local_manifest/master/patches.sh > ~/android/system/patches.sh
+curl https://raw.githubusercontent.com/TamsuiCM11/local_manifest/master/patches.sh > ~/android/system/patches.sh
 ./patches.sh
 ```
 
