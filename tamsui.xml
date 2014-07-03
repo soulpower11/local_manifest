@@ -24,7 +24,7 @@
         <project path="device/sony/tapioca_ds" name="TamsuiCM11/android_device_sony_tapioca_ds" remote="github" revision="cm-11.0" />
 	<project path="device/sony/jlo" name="TamsuiCM11/android_device_sony_jlo" remote="github" revision="cm-11.0" />
 	<project path="device/sony/mesona" name="TamsuiCM11/android_device_sony_mesona" remote="github" revision="cm-11.0" />
-	<project path="device/sony/nanhu" name="TamsuiCM11/android_device_sony_nanhu" remote="github" revision="cm-11.0" />
+	<!--<project path="device/sony/nanhu" name="TamsuiCM11/android_device_sony_nanhu" remote="github" revision="cm-11.0" /> -->
 	<project path="device/sony/nanhu_ds" name="TamsuiCM11/android_device_sony_nanhu_ds" remote="github" revision="cm-11.0" />
 	
 	<!-- Proprietary blobs -->
