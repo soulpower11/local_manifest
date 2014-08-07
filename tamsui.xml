@@ -1,23 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
         <!-- Common Repository -->
-	<project path="device/sony/tamsui-common" name="TamsuiCM11/android_device_sony_tamsui-common" remote="github" revision="cm-11.0" />
+	<project path="device/sony/tamsui-common" name="TamsuiCM11/android_device_sony_tamsui-common" revision="cm-11.0-ION" />
         
         <!-- Kernels -->
-        <project path="kernel/sony/msm7x27a" name="joebonrichie/android_kernel_sony_msm7x27a" remote="github" revision="cm-11.0" />
+        <project path="kernel/sony/msm7x27a" name="joebonrichie/android_kernel_sony_msm7x27a" revision="cm-11.0" />
         
         <!-- Devices -->
-        <project path="device/sony/tapioca" name="TamsuiCM11/android_device_sony_tapioca" remote="github" revision="cm-11.0" />
-        <project path="device/sony/tapioca_ds" name="TamsuiCM11/android_device_sony_tapioca_ds" remote="github" revision="cm-11.0" />
-	<project path="device/sony/jlo" name="TamsuiCM11/android_device_sony_jlo" remote="github" revision="cm-11.0" />
-	<project path="device/sony/mesona" name="TamsuiCM11/android_device_sony_mesona" remote="github" revision="cm-11.0" />
-	<!--<project path="device/sony/nanhu" name="TamsuiCM11/android_device_sony_nanhu" remote="github" revision="cm-11.0" /> -->
-	<project path="device/sony/nanhu_ds" name="TamsuiCM11/android_device_sony_nanhu_ds" remote="github" revision="cm-11.0" />
+        <project path="device/sony/tapioca" name="TamsuiCM11/android_device_sony_tapioca" revision="cm-11.0" />
+        <project path="device/sony/tapioca_ds" name="TamsuiCM11/android_device_sony_tapioca_ds" revision="cm-11.0" />
+	<project path="device/sony/jlo" name="TamsuiCM11/android_device_sony_jlo" revision="cm-11.0" />
+	<project path="device/sony/mesona" name="TamsuiCM11/android_device_sony_mesona" revision="cm-11.0" />
+	<!--<project path="device/sony/nanhu" name="TamsuiCM11/android_device_sony_nanhu" revision="cm-11.0" /> -->
+	<project path="device/sony/nanhu_ds" name="TamsuiCM11/android_device_sony_nanhu_ds" revision="cm-11.0" />
 	
 	<!-- Proprietary blobs -->
-	<project path="vendor/sony" name="TamsuiCM11/proprietary_vendor_sony" remote="github" revision="cm-11.0" />
+	<project path="vendor/sony" name="TamsuiCM11/proprietary_vendor_sony" revision="cm-11.0" />
 	
-	<project path="hardware/atheros/wlan" name="CyanogenMod/android_hardware_atheros_wlan" remote="github" revision="jellybean" />
+	<project path="hardware/atheros/wlan" name="CyanogenMod/android_hardware_atheros_wlan" revision="jellybean" />
         
 </manifest>
 
