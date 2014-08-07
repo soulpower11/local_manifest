@@ -17,14 +17,6 @@
 	<!-- Proprietary blobs -->
 	<project path="vendor/sony" name="TamsuiCM11/proprietary_vendor_sony" remote="github" revision="cm-11.0" />
 	
-	<!-- HALS -->
-	<project path="hardware/qcom/display-legacy" name="TamsuiCM11/android_hardware_qcom_display-legacy" remote="github" revision="cm-11.0-experimental" />
-        <remove-project name="CyanogenMod/android_hardware_qcom_audio-caf" />
-	<project name="TamsuiCM11/android_hardware_qcom_audio-caf" path="hardware/qcom/audio-caf" />
-	<project path="hardware/qcom/media-legacy" name="TamsuiCM11/android_hardware_qcom_media-legacy" remote="github" revision="cm-11.0" />
-	<!-- use caf media to fix video playback with legacymod repos-->
-	<remove-project name="CyanogenMod/android_hardware_qcom_media-caf" />
-	<project path="hardware/qcom/media-caf" name="TamsuiCM11/android_hardware_qcom_media-caf" remote="github" revision="cm-11.0" />
 	<project path="hardware/atheros/wlan" name="CyanogenMod/android_hardware_atheros_wlan" remote="github" revision="jellybean" />
         
 </manifest>
