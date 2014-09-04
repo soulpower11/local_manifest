@@ -2,7 +2,7 @@
 <manifest>
     <!-- Common Repository -->
         
-        <project path="device/sony/tamsui-common" name="TamsuiCM11/android_device_sony_tamsui-common" revision="cm-11.0-ION" />
+        <project path="device/sony/tamsui-common" name="TamsuiCM11/android_device_sony_tamsui-common" revision="cm-11.0-new" />
         
     <!-- Kernels -->
     
