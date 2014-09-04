@@ -14,8 +14,8 @@
         <project path="device/sony/tapioca_ds" name="TamsuiCM11/android_device_sony_tapioca_ds" revision="cm-11.0" />
         <project path="device/sony/jlo" name="TamsuiCM11/android_device_sony_jlo" revision="cm-11.0" />
         <project path="device/sony/mesona" name="TamsuiCM11/android_device_sony_mesona" revision="cm-11.0" />
-        <!--<project path="device/sony/nanhu" name="TamsuiCM11/android_device_sony_nanhu" revision="cm-11.0" /> -->
-        <project path="device/sony/nanhu_ds" name="TamsuiCM11/android_device_sony_nanhu_ds" revision="cm-11.0" />
+        <project path="device/sony/nanhu" name="TamsuiCM11/android_device_sony_nanhu" revision="cm-11.0" />
+       
 	
     <!-- Proprietary blobs -->
     
@@ -25,7 +25,7 @@
     
 	<remove-project name="CyanogenMod/android_hardware_qcom_display-caf" />
 	<project path="hardware/qcom/display-caf" name="TeamHackLG/android_hardware_qcom_display-caf" revision="cm-11.0" />
-	<project path="hardware/atheros/wlan" name="CyanogenMod/android_hardware_atheros_wlan" revision="jellybean" />
+	<project path="hardware/atheros/wlan" name="LegaCyMod/android_hardware_atheros_wlan" revision="cm-11.0" />
         
 </manifest>
 
