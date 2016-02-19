@@ -14,7 +14,7 @@ cd ~/android/system
 2) Get the local manifest
 ```
 mkdir -p ~/android/system/.repo/local_manifests
-curl https://raw.githubusercontent.com/TamsuiCM11/local_manifest/master/tamsui.xml > ~/android/system/.repo/local_manifests/tamsui.xml
+curl https://raw.githubusercontent.com/soulpower11/local_manifest/master-new/tamsui.xml > ~/android/system/.repo/local_manifests/tamsui.xml
 ```
 
 3) repo sync (again) to download the additional repositories
