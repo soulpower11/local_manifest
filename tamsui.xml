@@ -18,7 +18,6 @@
 	
     <!-- HALs --> 
     
-    	<remove-project name="CyanogenMod/android_hardware_qcom_display-caf" />
 	<project path="hardware/qcom/display-caf" name="soulpower11/android_hardware_qcom_display-caf" revision="cm-13.0" />
 	<project path="hardware/atheros/wlan" name="soulpower11/android_hardware_atheros_wlan" revision="cm-13.0" />
         
