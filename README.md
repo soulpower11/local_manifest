@@ -1,4 +1,4 @@
-This is the local manifest and instructions for building CyanogenMod 11 (or AOSP ROMS) for Sony Tipo (tapioca), Miro (mesona), J (jlo) and E (nanhu) released in 2012
+This is the local manifest and instructions for building CyanogenMod 13 (or AOSP ROMS) for Sony Tipo (tapioca), Miro (mesona), J (jlo) and E (nanhu) released in 2012
 
 The devices are based on the MSM7627a SoC (codenamed Tamsui)
 
