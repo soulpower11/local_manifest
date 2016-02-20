@@ -10,7 +10,7 @@
     	</project>
     	<project path="frameworks/av" name="legaCyMod/android_frameworks_av" remote="github" revision="cm-11.0" />
     	<project path="frameworks/native" name="legaCyMod/android_frameworks_native" remote="github" revision="cm-11.0" />
-   	<project path="vendor/cm" name="legaCyMod/android_vendor_cm" remote="github" revision="cm-11.0" /
+   	<project path="vendor/cm" name="legaCyMod/android_vendor_cm" remote="github" revision="cm-11.0" />
     <!-- Common Repository -->
         
         <project path="device/sony/tamsui-common" name="soulpower11/android_device_sony_tamsui-common" revision="cm-13.0" />
