@@ -10,7 +10,7 @@
         
     <!-- Devices -->
     
-        <project path="device/sony/jlo" name="soulpower11/android_device_sony_jlo" revision="cm-13.0" />
+        <project path="device/sony/jlo" name="soulpower11/android_device_sony_jlo" revision="cm-13.0-twrp" />
 	
     <!-- Proprietary blobs -->
     
