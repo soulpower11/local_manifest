@@ -2,13 +2,14 @@ This is the local manifest and instructions for building CyanogenMod 13 (or AOSP
 
 The devices are based on the MSM7627a SoC (codenamed Tamsui)
 
-Please setup your build enviroment as instructed on the link below
+Follow this guide up to "Initialize the CyanogenMod source repository" step (don't execute this step).
 
 http://wiki.cyanogenmod.org/w/Build_for_yuga
 
-1) After getting the prebuilt apps move back to root cyanogenmod dir
+1) Enter the following to initialize the repository:
 ```
-cd ~/android/system
+cd ~/android/system/
+repo init -u git://github.com/CyanogenMod/android.git -b cm-13.0
 ```
 
 2) Get the local manifest
