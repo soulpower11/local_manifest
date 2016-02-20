@@ -6,7 +6,7 @@
         
     <!-- Kernels -->
     
-        <project path="kernel/sony/msm7x27a" name="soulpower11/android_kernel_sony_msm7x27a" revision="jellybean-3.4" />
+        <project path="kernel/sony/msm7x27a" name="soulpower11/android_kernel_sony_msm7x27a" revision="cm-13.0" />
         
     <!-- Devices -->
     
