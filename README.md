@@ -15,7 +15,7 @@ repo init -u git://github.com/CyanogenMod/android.git -b cm-13.0
 2) Get the local manifest
 ```
 mkdir -p ~/android/system/.repo/local_manifests
-curl https://raw.githubusercontent.com/soulpower11/local_manifest/master-new/tamsui.xml > ~/android/system/.repo/local_manifests/tamsui.xml
+curl https://raw.githubusercontent.com/soulpower11/local_manifest/cm-13.0/tamsui.xml > ~/android/system/.repo/local_manifests/tamsui.xml
 ```
 
 3) repo sync (again) to download the additional repositories
