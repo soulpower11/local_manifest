@@ -1,8 +1,8 @@
-This is the local manifest and instructions for building CyanogenMod 13 (or AOSP ROMS) for Sony Tipo (tapioca), Miro (mesona), J (jlo) and E (nanhu) released in 2012
+This is the local manifest and instructions for building CyanogenMod 13 (or AOSP ROMS) for Sony Xperia J (jlo) released in 2012
 
 The devices are based on the MSM7627a SoC (codenamed Tamsui)
 
-Please setup your build enviroment as instructed on the link below, only follow up to the "Get Prebuilt Apps" stage, after which you can follow instructions mentioned here.
+Please setup your build enviroment as instructed on the link below
 
 http://wiki.cyanogenmod.org/w/Build_for_yuga
 
@@ -33,35 +33,10 @@ curl https://raw.githubusercontent.com/TamsuiCM11/local_manifest/master/patches.
 ```
 . build/envsetup.sh
 ```
-  i) If you want to build for Xperia E (nanhu)
-```
-  breakfast cm_nanhu-userdebug
-  brunch cm_nanhu-userdebug
-```
-  ii) If you want to build for Xperia E Dual (nanhu_ds)
-```
-  breakfast cm_nanhu_ds-userdebug
-  brunch cm_nanhu_ds-userdebug
-```
-  iii) If you want to build for Xperia J (jlo)
+  i) If you want to build for Xperia J (jlo)
 ```
   breakfast cm_jlo-userdebug
   brunch cm_jlo-userdebug
-```
-  iv) If you want to build for Xperia Miro (mesona)
-```
-  breakfast cm_mesona-userdebug
-  brunch cm_mesona-userdebug
-```
-  v) If you want to build for Xperia Tipo (tapioca)
-```
-  breakfast cm_tapioca-userdebug
-  brunch cm_tapioca-userdebug
-```
-  vi) If you want to build for Xperia Tipo Dual (tapioca_ds)
-```
-  breakfast cm_tapioca_ds-userdebug
-  brunch cm_tapioca_ds-userdebug
 ```
   
 Now go and grab a coffee or find something construtive to do for a couple to a few hours depending on your computer! 
