@@ -1,12 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-    <!-- Common Repository -->
+	<!-- TWRP -->
+	
+   <remove-project name="CyanogenMod/android_bootable_recovery" />
+   <project path="bootable/recovery" name="omnirom/android_bootable_recovery" remote="github" revision="android-5.1" />
+	
+   <!-- remove CM repos -->
+
+   <remove-project name="CyanogenMod/android_packages_apps_CMUpdater" />
+   <remove-project name="CyanogenMod/android_frameworks_av"/>
+   <!-- Hacked CM repos -->
+   <project path="frameworks/av" name="HtcLegacy/android_frameworks_av" revision="cm-12.1" />
+
+   <!-- Common Repository -->
         
         <project path="device/sony/tamsui-common" name="soulpower11/android_device_sony_tamsui-common" revision="cm-13.0" />
         
     <!-- Kernels -->
     
-        <project path="kernel/sony/msm7x27a" name="soulpower11/android_kernel_sony_msm7x27a" revision="cm-13.0" />
+        <project path="kernel/sony/msm7x27a" name="soulpower11/android_kernel_sony_msm7x27a" revision="cm-13.0-twrp" />
         
     <!-- Devices -->
     
@@ -16,10 +28,12 @@
     
 	<project path="vendor/sony" name="soulpower11/proprietary_vendor_sony" revision="cm-13.0" />
 	
-    <!-- HALs --> 
+    <!-- display-caf -->
     
-	<project path="hardware/qcom/display-caf" name="soulpower11/android_hardware_qcom_display-caf" revision="cm-13.0" />
-	<project path="hardware/atheros/wlan" name="soulpower11/android_hardware_atheros_wlan" revision="cm-13.0" />
-        
+   <project name="HtcLegacy/android_hardware_qcom_display" path="hardware/qcom/display-caf/msm7x27a" revision="cm-12.1-caf-msm7x27a" />
+   <!-- media-caf -->
+   
+   <project name="HtcLegacy/android_hardware_qcom_media" path="hardware/qcom/media-caf/msm7x27a" revision="cm-12.1-caf-msm7x27a" />
+
 </manifest>
 
