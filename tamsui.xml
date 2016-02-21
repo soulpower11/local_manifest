@@ -9,6 +9,7 @@
 
         <remove-project name="CyanogenMod/android_packages_apps_CMUpdater" />
         <remove-project name="CyanogenMod/android_frameworks_av"/>
+        
    <!-- Hacked CM repos -->
    
         <project path="frameworks/av" name="HtcLegacy/android_frameworks_av" revision="cm-12.1" />
