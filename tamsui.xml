@@ -1,16 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-	<!-- TWRP -->
+   <!-- TWRP -->
 	
-   <remove-project name="CyanogenMod/android_bootable_recovery" />
-   <project path="bootable/recovery" name="omnirom/android_bootable_recovery" remote="github" revision="android-5.1" />
+        <remove-project name="CyanogenMod/android_bootable_recovery" />
+        <project path="bootable/recovery" name="omnirom/android_bootable_recovery" remote="github" revision="android-5.1" />
 	
    <!-- remove CM repos -->
 
-   <remove-project name="CyanogenMod/android_packages_apps_CMUpdater" />
-   <remove-project name="CyanogenMod/android_frameworks_av"/>
+        <remove-project name="CyanogenMod/android_packages_apps_CMUpdater" />
+        <remove-project name="CyanogenMod/android_frameworks_av"/>
    <!-- Hacked CM repos -->
-   <project path="frameworks/av" name="HtcLegacy/android_frameworks_av" revision="cm-12.1" />
+   
+        <project path="frameworks/av" name="HtcLegacy/android_frameworks_av" revision="cm-12.1" />
 
    <!-- Common Repository -->
         
@@ -30,10 +31,11 @@
 	
     <!-- display-caf -->
     
-   <project name="HtcLegacy/android_hardware_qcom_display" path="hardware/qcom/display-caf/msm7x27a" revision="cm-12.1-caf-msm7x27a" />
+         <project name="HtcLegacy/android_hardware_qcom_display" path="hardware/qcom/display-caf/msm7x27a" revision="cm-12.1-caf-msm7x27a" />
+         
    <!-- media-caf -->
    
-   <project name="HtcLegacy/android_hardware_qcom_media" path="hardware/qcom/media-caf/msm7x27a" revision="cm-12.1-caf-msm7x27a" />
+         <project name="HtcLegacy/android_hardware_qcom_media" path="hardware/qcom/media-caf/msm7x27a" revision="cm-12.1-caf-msm7x27a" />
 
 </manifest>
 
