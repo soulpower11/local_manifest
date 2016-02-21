@@ -20,11 +20,11 @@
         
     <!-- Kernels -->
     
-        <project path="kernel/sony/msm7x27a" name="soulpower11/android_kernel_sony_msm7x27a" revision="cm-13.0-twrp" />
+        <project path="kernel/sony/msm7x27a" name="soulpower11/android_kernel_sony_msm7x27a" revision="cm-13.0" />
         
     <!-- Devices -->
     
-        <project path="device/sony/jlo" name="soulpower11/android_device_sony_jlo" revision="cm-13.0" />
+        <project path="device/sony/jlo" name="soulpower11/android_device_sony_jlo" revision="cm-13.0-twrp" />
 	
     <!-- Proprietary blobs -->
     
