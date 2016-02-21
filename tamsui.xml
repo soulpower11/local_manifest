@@ -3,7 +3,7 @@
 	<!-- TWRP -->
 	
 	<remove-project name="CyanogenMod/android_bootable_recovery" />
-	<project path="bootable/recovery" name="omnirom/android_bootable_recovery" remote="github" revision="android-5.1" />
+	<project path="bootable/recovery" name="omnirom/android_bootable_recovery" remote="github" revision="android-6.0" />
 	
     <!-- Common Repository -->
         
