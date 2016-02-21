@@ -1,5 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
+	<!-- TWRP -->
+	
+	<remove-project name="CyanogenMod/android_bootable_recovery" />
+	<project path="bootable/recovery" name="omnirom/android_bootable_recovery" remote="github" revision="android-5.1" />
+	
     <!-- Common Repository -->
         
         <project path="device/sony/tamsui-common" name="soulpower11/android_device_sony_tamsui-common" revision="cm-13.0" />
