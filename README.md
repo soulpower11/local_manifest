@@ -1,4 +1,4 @@
-This is the local manifest and instructions for building CyanogenMod 13 (or AOSP ROMS) for Sony Xperia J (jlo) released in 2012
+This is the local manifest and instructions for building CyanogenMod 11 (or AOSP ROMS) for Sony Xperia J (jlo) released in 2012
 
 The devices are based on the MSM7627a SoC (codenamed Tamsui)
 
@@ -8,14 +8,14 @@ http://wiki.cyanogenmod.org/w/Build_for_yuga
 
 1) Enter the following to initialize the repository:
 ```
-cd ~/android/system/
-repo init -u git://github.com/CyanogenMod/android.git -b cm-13.0
+cd ~/cm11/system/
+repo init -u git://github.com/CyanogenMod/android.git -b cm-11.0
 ```
 
 2) Get the local manifest
 ```
 mkdir -p ~/android/system/.repo/local_manifests
-curl https://raw.githubusercontent.com/soulpower11/local_manifest/cm-11.0/tamsui.xml > ~/android/system/.repo/local_manifests/tamsui.xml
+curl https://raw.githubusercontent.com/soulpower11/local_manifest/cm-11.0/tamsui.xml > ~/cm11/system/.repo/local_manifests/tamsui.xml
 ```
 
 3) repo sync (again) to download the additional repositories
@@ -25,7 +25,7 @@ repo sync -j8 --no-clone-bundle
 
 4) Download and apply the patches file containing patches not in the source
 ```
-curl https://raw.githubusercontent.com/TamsuiCM11/local_manifest/master/patches.sh > ~/android/system/patches.sh
+curl https://raw.githubusercontent.com/TamsuiCM11/local_manifest/cm-11.0/patches.sh > ~/cm11/system/patches.sh
 ./patches.sh
 ```
 
