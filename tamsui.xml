@@ -2,13 +2,13 @@
 <manifest>
    <!-- TWRP -->
 	
-        <remove-project name="CyanogenMod/android_bootable_recovery" />
+        <remove-project name="LineageOS/android_bootable_recovery" />
         <project path="bootable/recovery" name="omnirom/android_bootable_recovery" remote="github" revision="android-5.1" />
 	
    <!-- remove CM repos -->
 
-        <remove-project name="CyanogenMod/android_packages_apps_CMUpdater" />
-        <remove-project name="CyanogenMod/android_frameworks_av"/>
+        <remove-project name="LineageOS/android_packages_apps_CMUpdater" />
+        <remove-project name="LineageOS/android_frameworks_av"/>
         
    <!-- Hacked CM repos -->
    
