@@ -2,7 +2,7 @@
 
 # Set CM11 path
 if [ "${android}" = "" ]; then
-        android=~/android/system
+        android=~/android/lineage
 fi
 
 ${android}/build/tools/repopick.py -b ${cherries[@]}
