@@ -1,4 +1,4 @@
-This is the local manifest and instructions for building CyanogenMod 13 (or AOSP ROMS) for Sony Xperia J (jlo) released in 2012
+This is the local manifest and instructions for building LineageOS 13 (or AOSP ROMS) for Sony Xperia J (jlo) released in 2012
 
 The devices are based on the MSM7627a SoC (codenamed Tamsui)
 
