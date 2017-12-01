@@ -2,9 +2,9 @@ This is the local manifest and instructions for building LineageOS 13 (or AOSP R
 
 The devices are based on the MSM7627a SoC (codenamed Tamsui)
 
-Follow this guide up to "Initialize the CyanogenMod source repository" step (don't execute this step).
+Follow this guide up to "Initialize the LineageOS source repository" step (don't execute this step).
 
-http://wiki.cyanogenmod.org/w/Build_for_yuga
+https://wiki.lineageos.org/devices/yuga/build
 
 1) Enter the following to initialize the repository:
 ```
