@@ -8,14 +8,14 @@ http://wiki.cyanogenmod.org/w/Build_for_yuga
 
 1) Enter the following to initialize the repository:
 ```
-cd ~/android/system/
-repo init -u git://github.com/CyanogenMod/android.git -b cm-13.0
+cd ~/android/lineage/
+repo init -u git://github.com/LineageOS/android.git -b cm-13.0
 ```
 
 2) Get the local manifest
 ```
-mkdir -p ~/android/system/.repo/local_manifests
-curl https://raw.githubusercontent.com/soulpower11/local_manifest/master-new/tamsui.xml > ~/android/system/.repo/local_manifests/tamsui.xml
+mkdir -p ~/android/lineage/.repo/local_manifests
+curl https://raw.githubusercontent.com/soulpower11/local_manifest/master-new/tamsui.xml > ~/android/lineage/.repo/local_manifests/tamsui.xml
 ```
 
 3) repo sync (again) to download the additional repositories
