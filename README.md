@@ -36,8 +36,8 @@ curl https://raw.githubusercontent.com/TamsuiCM11/local_manifest/master/patches.
 ```
   i) If you want to build for Xperia J (jlo)
 ```
-  breakfast cm_jlo-userdebug
-  brunch cm_jlo-userdebug
+  breakfast LineageOS_jlo-userdebug
+  brunch LineageOS_jlo-userdebug
 ```
   
 Now go and grab a coffee or find something construtive to do for a couple to a few hours depending on your computer! 
